@@ -8,7 +8,7 @@ h1 {
     font-weight: normal;
 }
 
-button {
+.button {
     color: black;
     background-color: white;
     font-family: minecraftia;
@@ -18,7 +18,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     outline: 2px solid #1f1f1f
 }
 
@@ -32,3 +32,13 @@ body {
     background-image: url("background.png");
     background-color: #1f1f1f;
 }
+
+/* .secret {
+margin-left: 91%;
+margin-top: 17%;
+font-size: 70px;
+color: transparent;
+background-color: transparent;
+padding: 30px 30px;
+border: none;
+} */
