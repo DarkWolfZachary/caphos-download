@@ -13,9 +13,16 @@ h1 {
     background-color: white;
     font-family: minecraftia;
     border: none;
-    font-size: 25px;
     margin-right: 3px;
     cursor: pointer;
+}
+
+.big {
+    font-size: 25px;
+}
+
+.small {
+font-size: 20px;
 }
 
 .button:hover {
@@ -26,11 +33,27 @@ div {
     width: 100%;
     max-width: fit-content;
     margin-inline: auto;
+    margin-top: 20px;
 }
 
 body {
     background-image: url("background.png");
     background-color: #1f1f1f;
+    background-repeat: no-repeat;
+}
+
+p {
+    text-align: center;
+    color: white;
+    background-color: #000000ab;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-family: minecraftia;
+    padding-left: 3px;
+    padding-right: 3px;
+
 }
 
 /* .secret {
